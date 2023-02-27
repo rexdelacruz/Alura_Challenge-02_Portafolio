@@ -1,0 +1,52 @@
+:root {
+    --raleway: "Raleway", sans-serif;
+
+    --background-claro: #f5f5f5;
+    --background-azul-claro: #EAF2FD;
+    --background-blanco:#ffffff;
+    --background-azul-rey:#2A7AE4;
+
+    --fuente-oscura: #464646;
+    --fuente-blanco: #ffffff;
+}
+
+body {
+    font-family: var(--raleway);
+    background-color: var(--background-claro);
+}
+
+.container {
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.boton {
+    padding: .7rem 1rem;
+    border: 1px solid var(--background-azul-rey);
+    text-decoration: none;
+    width: 50%;
+    font-size: 1rem;
+    font-family: var(--raleway);
+    font-weight: 400;
+    color: var(--fuente-blanco);
+    background-color: var(--background-azul-rey);
+}
+
+@media screen and (min-width:768px) {
+    .container {
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+    .boton {
+        width: 25%;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    
+}

@@ -1,0 +1,38 @@
+.skills {
+    padding-top: 2rem;
+
+}
+
+.skills__titulo {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.skills__categorias {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.skills__categorias_item {
+    background-color: var(--background-blanco);
+    width: 38%;
+    height: 30%;
+    padding: 2.3rem 1rem 1rem;
+    list-style: none;
+}
+
+@media screen and (min-width:768px) {
+    .skills__categorias_item {
+        width: 44%;
+    }
+}
+
+/*DESKTOP*/
+
+@media screen and (min-width: 1024px) {
+    .skills__categorias_item {
+        width: 13%;
+    }
+}

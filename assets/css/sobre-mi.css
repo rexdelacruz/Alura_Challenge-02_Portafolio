@@ -1,0 +1,19 @@
+.sobre-mi {
+    background-color: var(--background-azul-claro);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.sobre-mi__texto {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/*DESKTOP*/
+
+@media screen and (min-width: 1024px) {
+    .sobre-mi__texto {
+        width: 50%;
+    }
+}

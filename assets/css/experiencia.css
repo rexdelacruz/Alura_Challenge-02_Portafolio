@@ -1,0 +1,54 @@
+.experiencia-profesional {
+    padding-top: 2rem;
+    
+}
+
+.experiencia-profesional__titulo {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.experiencia-profesional__bloque {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4rem;
+}
+
+.experiencia-profesional__bloque__titulo {
+    margin-bottom: -.7rem;
+    margin-top: 1rem;
+}
+
+.experiencia-profesional__bloque__botones {
+    display: flex;
+    gap: 8px;
+}
+
+.experiencia-profesional__bloque__boton--repositorio {
+    padding: .7rem 1rem;
+    border: 1px solid var(--background-azul-rey);
+    text-decoration: none;
+    color: var(--background-azul-rey);
+}
+
+.experiencia-profesional__bloque__boton--demo {
+    padding: .7rem 1rem;
+    border: 1px solid var(--background-azul-rey);
+    text-decoration: none;
+    color: var(--fuente-blanco);
+    background-color: var(--background-azul-rey);
+}
+
+/*DESKTOP*/
+
+@media screen and (min-width: 1024px) {
+    .experiencia-profesional__bloque {
+        flex-direction: row;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .experiencia-profesional__bloque img {
+        width: 60%;
+    }
+}
