@@ -42,7 +42,7 @@
         gap: 20px;
     }
     .contacto__formulario__img {
-        background-image: url(/assets/img/contact_image.png);
+        background-image: url(assets/img/contact_image.png);
         background-repeat: none;
         background-size: cover;
         width: 40%;
